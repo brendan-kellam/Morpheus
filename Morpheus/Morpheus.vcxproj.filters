@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Src\Source.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Graphics\RenderManager.cpp">
+      <Filter>Src\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Network\Address.cpp">
+      <Filter>Src\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Network\NetworkManager.cpp">
+      <Filter>Src\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Network\Socket.cpp">
+      <Filter>Src\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Core\Debug\LogManager.cpp">
+      <Filter>Src\Core\Debug</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Graphics\RenderManager.h">
+      <Filter>Src\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Network\Address.h">
+      <Filter>Src\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Network\NetIncludes.h">
+      <Filter>Src\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Network\NetworkManager.h">
+      <Filter>Src\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Network\Socket.h">
+      <Filter>Src\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Core\Util\Singleton.h">
+      <Filter>Src\Core\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Core\Util\Interfaces.h">
+      <Filter>Src\Core\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Core\Debug\LogManager.h">
+      <Filter>Src\Core\Debug</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{5de9c621-4bbd-4dc8-b062-898c6b550a89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Graphics">
+      <UniqueIdentifier>{5454fbd8-c4f8-4f9c-9bad-6873ffd7a3f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Network">
+      <UniqueIdentifier>{fecb0954-54ed-4171-a8ea-294e77958ddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Core">
+      <UniqueIdentifier>{8fd04f54-9ff1-4b60-903c-44b77958150c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Core\Util">
+      <UniqueIdentifier>{20778110-8b29-4db7-8568-68ac824d18c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Core\Debug">
+      <UniqueIdentifier>{c137a097-1d3f-454b-b60b-13c20c729e58}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
